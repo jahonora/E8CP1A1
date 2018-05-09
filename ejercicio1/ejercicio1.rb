@@ -29,7 +29,7 @@ arr2 = ["INICIO", "QUIENES SOMOS", "CONTACTO"]
 
 method2("BIENVENIDO AL SITIO WEB", "MENU", arr2)
 
-def method3(s1, s2, arr = nil, bc = nil)
+def method3(s1, s2, arr = nil, bc = "white")
 	file = File.new("index3.html", "w")
 	string1 = "<p style=\"background-color:#{bc}\">#{s1}</p>"
 	string2 = "<p style=\"background-color:#{bc}\">#{s2}</p>"
